@@ -32,3 +32,15 @@ mMessageSDK.sendMessage(message)
                 
 ```
 
+## 2.1 ZClubMessageDispatcher
+
+```java
+    class ZClubMessageDispatcher extends MessageDispatcher {
+
+        @Override
+        public void onHandleMessage(String method, JsonResponseMessage jsonMessage) {
+            final String message = jsonMessage.getTarget().toString();
+            // dispatch message with method
+        }
+    }
+```

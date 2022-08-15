@@ -11,7 +11,9 @@ import com.mrcd.message.msg.JsonRequestMessage;
 import com.mrcd.message.msg.JsonResponseMessage;
 import com.zclub.ws.message.databinding.ActivityMainBinding;
 
-
+/**
+ * Message-SDK demo app
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String ECHO_SERVER_WS_UR = "ws://echo.websocket.org/" ;

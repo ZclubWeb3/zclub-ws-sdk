@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void configMessageSDK() {
+        // config the websocket server ( replace ECHO_SERVER_WS_UR with your websocket server)
         mMessageSDK = new MessageSDK.Builder(ECHO_SERVER_WS_UR)
                 .messageDispatcher(new ZClubMessageDispatcher())
                 .messageLogger(new DefaultMessageLogger())

@@ -1,0 +1,7 @@
+{
+  "status_code": 404,
+  "msg_id": "mid_123",
+  "data": {
+    "err_msg": "method not found!"
+  }
+}

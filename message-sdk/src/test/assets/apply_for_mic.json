@@ -1,0 +1,11 @@
+{
+  "status_code": 200,
+  "msg_id": "uuid",
+  "type": "chatroom",
+  "method": "apply_for_mic",
+  "sender": "s13131414",
+  "room_id": "42fs52fsf525224iul9",
+  "data": {
+    "msg": "hello"
+  }
+}
